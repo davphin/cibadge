@@ -1,0 +1,21 @@
+{
+  "name": "dnelson/badges",
+  "description": "Generate CI badges for common QA tool outputs.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Dave Nelson",
+      "email": "davenelson2011@gmail.com"
+    }
+  ],
+  "require": {
+    "symfony/console": "^3.4",
+    "badges/poser": "~1.2",
+    "symfony/filesystem": "^3.4"
+  },
+  "autoload": {
+    "psr-4": { "cibadge\\": "src/" }
+  },
+  "bin": ["cibadge"]
+}
