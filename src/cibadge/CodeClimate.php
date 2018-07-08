@@ -1,6 +1,6 @@
 <?php
 
-namespace cibadge;
+namespace dnelson\cibadge;
 
 use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\Console\Input\InputArgument;

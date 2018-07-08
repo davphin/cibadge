@@ -1,5 +1,5 @@
 {
-  "name": "dnelson/badges",
+  "name": "dnelson/cibadge",
   "description": "Generate CI badges for common QA tool outputs.",
   "minimum-stability": "stable",
   "license": "proprietary",
@@ -15,7 +15,7 @@
     "symfony/filesystem": "^3.4"
   },
   "autoload": {
-    "psr-4": { "cibadge\\": "src/" }
+    "psr-4": { "dnelson\\cibadge\\": "src/cibadge" }
   },
   "bin": ["cibadge"]
 }
