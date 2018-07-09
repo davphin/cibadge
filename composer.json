@@ -1,7 +1,7 @@
 {
   "name": "dnelson/cibadge",
   "description": "Generate CI badges for common QA tool outputs.",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "license": "MIT",
   "type": "library",
   "authors": [
